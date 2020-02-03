@@ -7,23 +7,28 @@
 	<title>VIETPRO STORE</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
+	<link href="{{ asset('/frontend/css/animate.css') }}" rel="stylesheet">
+	{{-- <link rel="stylesheet" href="css/animate.css"> --}}
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
+	<link href="{{ asset('/frontend/css/icomoon.css') }}" rel="stylesheet">
+	{{-- <link rel="stylesheet" href="css/icomoon.css"> --}}
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link href="{{ asset('/frontend/css/bootstrap.css') }}" rel="stylesheet">
+	{{-- <link rel="stylesheet" href="css/bootstrap.css"> --}}
 
 	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link href="{{ asset('/frontend/css/magnific-popup.css') }}" rel="stylesheet">
+	{{-- <link rel="stylesheet" href="css/magnific-popup.css"> --}}
 
 	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
+	<link href="{{ asset('/frontend/css/flexslider.css') }}" rel="stylesheet">
+	{{-- <link rel="stylesheet" href="css/flexslider.css"> --}}
 
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/custome.css">
-
-
+	<link href="{{ asset('/frontend/css/style.css') }}" rel="stylesheet">
+	{{-- <link rel="stylesheet" href="css/style.css"> --}}
+	<link href="{{ asset('/frontend/css/custome.css') }}" rel="stylesheet">
+	{{-- <link rel="stylesheet" href="css/custome.css"> --}}
 
 </head>
 
